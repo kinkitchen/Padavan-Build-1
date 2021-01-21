@@ -23,7 +23,7 @@ env:
   custom_modify: true                                           # 修改文件
   upload_cowtransfer: true                                      # 上传到奶牛快传
   upload_wetransfer: true                                       # 上传到 WeTransfer
-  src_git: https://github.com/TurBoTse/rt-n56u.git              # 源码地址
+  src_git: https://github.com/chongshengB/rt-n56u.git           # 源码地址
   config_dir: /opt/rt-n56u/trunk/configs/templates              # 设备模板目录
   toolchain_dir: /opt/rt-n56u/toolchain-mipsel/toolchain-3.4.x  # 工具链目录
   toolchain_pkg: mipsel-linux-uclibc.tar.xz
@@ -84,7 +84,7 @@ jobs:
 #          - build_variant: "mt7620"
 #            targets: "PSG1208 XY-C1 NEWIFI-MINI MI-MINI MI-3 OYE-001 5K-W20"
           - build_variant: "mt7621"
-            targets: "K2P-5.0 XY-C1"
+            targets: "XY-C1"
 #          - build_variant: "mt7621-usb-1"
 #            targets: "A3004NS MSG1500 WR1200JS E8820V2 NEWIFI3 RT-AC1200GU"
 #         - build_variant: "mt7621-usb-2"
